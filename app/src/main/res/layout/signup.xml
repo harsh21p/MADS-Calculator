@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="19dp">
+
+        <EditText
+            android:id="@+id/full_name"
+            android:layout_width="328dp"
+            android:layout_height="48dp"
+            android:background="@drawable/sharp_corner"
+            android:layout_gravity="center"
+            android:paddingHorizontal="17dp"
+            android:hint="@string/enter_full_name"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:layout_marginTop="46dp"
+            android:layout_marginBottom="11dp"
+            android:textColorHint="#6D6A6A"
+            android:paddingTop="5dp"
+            android:fontFamily="@font/poppins_regular"/>
+
+
+        <EditText
+            android:id="@+id/signup_email"
+            android:layout_width="328dp"
+            android:layout_height="48dp"
+            android:background="@drawable/sharp_corner"
+            android:layout_gravity="center"
+            android:paddingHorizontal="17dp"
+            android:hint="@string/enter_email_i_d"
+            android:textSize="15sp"
+            android:inputType="textEmailAddress"
+            android:textStyle="normal"
+            android:textColorHint="#6D6A6A"
+            android:paddingTop="5dp"
+            android:layout_marginBottom="11dp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <EditText
+            android:id="@+id/signup_password"
+            android:layout_width="328dp"
+            android:layout_height="48dp"
+            android:background="@drawable/sharp_corner"
+            android:layout_gravity="center"
+            android:paddingHorizontal="17dp"
+            android:hint="@string/enter_password"
+            android:textSize="15sp"
+            android:inputType="textPassword"
+            android:textStyle="normal"
+            android:layout_marginBottom="11dp"
+            android:textColorHint="#6D6A6A"
+            android:paddingTop="5dp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <EditText
+            android:id="@+id/signup_confirm_password"
+            android:layout_width="328dp"
+            android:layout_height="48dp"
+            android:background="@drawable/sharp_corner"
+            android:layout_gravity="center"
+            android:paddingHorizontal="17dp"
+            android:hint="@string/confirm_password"
+            android:textSize="15sp"
+            android:inputType="textPassword"
+            android:textStyle="normal"
+            android:layout_marginBottom="11dp"
+            android:textColorHint="#6D6A6A"
+            android:paddingTop="5dp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <EditText
+            android:id="@+id/contact_no"
+            android:layout_width="328dp"
+            android:layout_height="48dp"
+            android:background="@drawable/sharp_corner"
+            android:layout_gravity="center"
+            android:paddingHorizontal="17dp"
+            android:hint="Enter contact no"
+            android:inputType="phone"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:textColorHint="#6D6A6A"
+            android:paddingTop="5dp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="46dp">
+
+            <ProgressBar
+                android:id="@+id/progress_bar_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" />
+
+            <Button
+                android:id="@+id/signup_button"
+                android:layout_width="328dp"
+                android:layout_height="48dp"
+                android:background="@drawable/button_layout"
+                android:text="Signup"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:fontFamily="@font/poppins_regular" />
+        </RelativeLayout>
+
+
+    </LinearLayout>

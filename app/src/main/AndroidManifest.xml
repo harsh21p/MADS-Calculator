@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.flytbase.assignment">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".supporting.ApplicationScope"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Calculator"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Blank"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".activity.SplashScreen"
+            android:label="Calculator"
+            android:theme="@style/Theme.Blank"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--      Welcome Page-->
+
+        <activity android:name=".activity.Calculator"
+            android:label="ForHealth"
+            android:theme="@style/Theme.Blank">
+        </activity>
+
+        <activity android:name=".activity.LoginSignup"
+            android:label="ForHealth"
+            android:theme="@style/Theme.Blank">
+        </activity>
+
+
+        <activity android:name=".activity.History"
+            android:label="ForHealth"
+            android:theme="@style/Theme.Blank">
+        </activity>
+
+    </application>
+
+</manifest>
