@@ -1,6 +1,6 @@
 # MADS-Calculator
 
-<p style="color: red;">Note: </p>
+<p style="color: red;">Note: google-services.json file is ignored from the project</p>
 <B>Test Credentials</B>
 
 Email: admin1@admin.com
