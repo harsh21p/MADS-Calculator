@@ -1,6 +1,9 @@
-# MADS-Calculator
+# The MAD(S) Calculator
+
+ <img src=https://user-images.githubusercontent.com/46632001/195970545-0e0e57e4-fb21-4848-a072-9f033b351e1c.jpg width="100%"/>
 
 <p style="color: red;">Note: google-services.json file is ignored from the project</p>
+
 <B>Test Credentials</B>
 
 Email: admin1@admin.com
